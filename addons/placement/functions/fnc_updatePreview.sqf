@@ -37,6 +37,7 @@ private _vectorUp = surfaceNormal _position;
 
 // Update the helper, which will update the attached preview object
 GVAR(helper) setPosASL _position;
+GVAR(helper) setDir 0;
 GVAR(helper) setVectorUp _vectorUp;
 
 END_COUNTER(updatePreview);
